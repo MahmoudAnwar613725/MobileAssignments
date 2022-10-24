@@ -29,6 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgLogo"
         android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="click decide to select your meal" />
 
@@ -37,8 +39,8 @@
         android:id="@+id/edAddNewFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/tvSelectedFood"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
         android:hint="enter your favourite food"
         android:textAlignment="center" />
